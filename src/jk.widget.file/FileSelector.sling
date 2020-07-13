@@ -337,7 +337,6 @@ func openFileDialog(widget as Widget, type as string, callback as function<void,
 			};
 			elm.addEventListener("change", fileHandler);
 			elm.click();
-			JkUiHTMLDOM.appendToBody(elm);
 		}}}
 	}
 	ELSE IFDEF "target_ios" {
